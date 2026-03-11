@@ -1,9 +1,16 @@
+# IntelliJ
 .idea/
 *.iml
 
-Aula-2/.idea/
-Aula-2/out/production/Aula-2/Carro.class
-Aula-2/out/production/Aula-2/Main.class
+# Compilados Java
+*.class
 
-Aula-4B/.idea/
-Aula-4B/out/
+# Pasta de build do IntelliJ
+out/
+
+# Logs
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
