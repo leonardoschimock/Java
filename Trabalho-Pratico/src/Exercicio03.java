@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Exercicio03 {
 
 // *****************************************************************************************************************
 // Curso: Engenharia de Software
