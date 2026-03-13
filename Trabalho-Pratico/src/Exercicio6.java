@@ -19,35 +19,28 @@ public class Exercicio6 {
 // números.
 // *****************************************************************************************************************
 
-    static void main (String[] args) {
+    public void main (String[] args) {
 
         Scanner scanner = new Scanner (System.in);
 
-        System.out.println ("Vamos construir um vetor, a seguir informe 5 números.");
-        System.out.println ("Informe seu primeiro número: ");
 
-        int primeiro = scanner.nextInt();
+        int[] vetor = new int[5];
 
-        System.out.println ("Primeiro número: " + primeiro);
-        System.out.println ("Informe o segundo número: ");
 
-        int segundo = scanner.nextInt();
+        System.out.println ("Vamos construir um vetor. Informe 5 números: ");
+        for (int i = 0; i < vetor.length; i++){
+            System.out.println ("Informe o número " + (i + 1) + ": ");
+            vetor [i] = scanner.nextInt();
+        }
 
-        System.out.println ("Segundo número: " + segundo);
-        System.out.println ("Informe o terceiro número: ");
 
-        int terceiro = scanner.nextInt();
 
-        System.out.println ("Terceiro número: " + terceiro);
-        System.out.println ("Informe o quarto número: ");
+        System.out.println ("Números digitados: ");
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.println (vetor [i]);
+        }
 
-        int quarto = scanner.nextInt();
 
-        System.out.println ("Quarto número: " + quarto);
-        System.out.println ("Informe o quinto número: ");
-
-        int quinto = scanner.nextInt();
-
-        System.out.println ("Quinto número: " + quinto);
+        scanner.close();
     }
 }

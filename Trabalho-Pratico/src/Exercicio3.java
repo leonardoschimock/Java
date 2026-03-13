@@ -18,7 +18,7 @@ public class Exercicio3 {
 // Descritivo: Escreva um programa que calcule a média de três notas fornecidas pelo usuário.
 // *****************************************************************************************************************
 
-    static void main (String[] args) {
+    public static void main (String[] args) {
         Scanner scanner = new Scanner (System.in);
 
         System.out.println("Informe sua PRIMEIRA nota: ");
