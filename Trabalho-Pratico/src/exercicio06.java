@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio06 {
+public class exercicio06 {
 
 // *****************************************************************************************************************
 // Curso: Engenharia de Software
@@ -19,7 +19,7 @@ public class Exercicio06 {
 // números.
 // *****************************************************************************************************************
 
-    public void main (String[] args) {
+    public static void main (String[] args) {
 
         Scanner scanner = new Scanner (System.in);
 
@@ -44,3 +44,12 @@ public class Exercicio06 {
         scanner.close();
     }
 }
+
+// ******** COMENTÁRIO *********************************************************************************************
+// O código começa com a criação da classe Scanner para leitura das informações digitadas pelo usuário. Em seguida
+// é declarado um vetor do tipo inteiro com capacidade para armazenar 5 números. O programa então orienta o usuário
+// a informar os valores e utiliza uma estrutura de repetição "for" para percorrer todas as posições do vetor,
+// armazenando cada número digitado em sua respectiva posição. Após o preenchimento do vetor, o código utiliza
+// novamente uma estrutura de repetição "for" para percorrer o vetor e imprimir todos os números informados pelo
+// usuário. Ao final é utilizado o comando scanner.close(); para encerrar a leitura de dados do terminal.
+// *****************************************************************************************************************

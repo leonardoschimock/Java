@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio04 {
+public class exercicio04 {
 
 // ******************************************************************************************************************
 // Curso: Engenharia de Software
@@ -34,3 +34,11 @@ public class Exercicio04 {
         System.out.println ("Essa é a temperatura de hoje em Fahrenreit (°F) " + temperaturaFahrenreit);
     }
 }
+
+// ******** COMENTÁRIO *********************************************************************************************
+// O código começa com a criação da classe Scanner para leitura das informações digitadas pelo usuário e, em
+// seguida, são exibidas instruções norteadoras de como e o que o usuário deve informar para o programa. A classe
+// Scanner é chamada para realizar a leitura da temperatura em Celsius e depois o valor informado é exibido
+// novamente ao usuário para confirmação. Ao final é declarada a variável temperaturaFahrenheit, que recebe a
+// fórmula de conversão de Celsius para Fahrenheit, e então é impresso o resultado dessa conversão no terminal.
+// *****************************************************************************************************************
